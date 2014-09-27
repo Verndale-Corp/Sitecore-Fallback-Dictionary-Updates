@@ -4,7 +4,7 @@ Purpose
 Update the Sitecore Dictionary logic to take language fallback into account.
 
 Compatibility
-The codebase is compatible with Sitecore 6.6.x releases.
+The codebase is compatible with Sitecore 6.6.x releases and at least through Sitecore 7.2.x.
 This assumes you are using the latest version of the Partial Language Fallback Module
 http://marketplace.sitecore.net/en/Modules/Language_Fallback.aspx
 
@@ -25,4 +25,4 @@ Testing
 4. Change the site context language to the falling back language and make sure the phrase it being pulled
 5. make sure that enableFallback is true for this site and that the enable Fallback checkbox is checked on the Dictionary Entry template fields
 
-Review the blog series about Partial Language Fallback on Sitecore, link TBD
+Review the blog series about Partial Language Fallback on Sitecore, http://www.sitecore.net/en-gb/Learn/Blogs/Technical-Blogs/Elizabeth-Spranzani.aspx
